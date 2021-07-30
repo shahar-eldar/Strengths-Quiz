@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Heebo;
+    src: url(fonts/Heebo-Regular.ttf);
+}
+
+@font-face {
+    font-family: HeeboLight;
+    src: url(fonts/Heebo-Light.ttf);
+}
+
+@font-face {
+    font-family: HeeboExtraBold;
+    src: url(fonts/Heebo-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: HeeboBlack;
+    src: url(fonts/Heebo-Black.ttf);
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 4rem;
+    font-family: Heebo;
+}
+
+.level {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: HeeboLight;
+}
+
+.current {
+    font-size: 9rem;
+}
+
+.question {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    font-family: HeeboExtraBold;
+    text-align: center;
+    width: 90%;
+}
+
+.answers {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 65%; 
+    position: absolute;
+    bottom: 0;   
+}
+
+.form { 
+    width: 60%;
+    direction: rtl;
+    position: absolute;
+    right: 50%;
+    top: 9vh;
+    transform: translateX(50%);
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+    top: 55vh;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: solid white;
+    border-radius: 15vw;
+    font-size: 4rem;
+    font-family: HeeboLight;
+    padding: 1% 3.5%;
+}
+
+.screen-1 {
+    display: none;
+}
+
+.screen-3 {
+    display: none;
+}
+
+.header {
+    font-family: HeeboBlack;
+    position: absolute;
+    left: 50%;
+    top: -3vh;
+    transform: translateX(-50%);
+}
+
+.ldBar path.mainline {
+    stroke-width: 7;
+    stroke: rgb(0, 0, 0);
+}
+
+.ldBar path.baseline {
+    stroke-width: 7;
+    stroke: #cacaca;
+}
+
+.ldBar-label {
+    font-size: 3rem;
+}
+
+.ldBar {
+    position: relative;
+    top: 20vh;
+}

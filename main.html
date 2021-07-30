@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>שאלון חוזקות בה"ד 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/loading-bar.css"/>
+    <script type="text/javascript" src="assets/loading-bar.js"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+    <div id="screen-1" class="screen-1"></div>
+    <div id="screen-2" class="screen-2">
+        <div class="level"><span id="current-level" class="current">1</span><span>/48</span></div>
+        <div class="question" id="question">אני סקרן תמיד לגבי העולם</div>
+        <div class="answers">
+            <form class="form">
+              <input class="radio" type="radio" name="choice" value="10">
+              <label>מאוד לא מתאים</label><br>
+              <input class="radio" type="radio" name="choice" value="20">
+              <label>לא מתאים</label><br>
+              <input class="radio" type="radio" name="choice" value="30">
+              <label>ניטרלי</label><br>
+              <input class="radio" type="radio" name="choice" value="40">
+              <label>מתאים</label><br>
+              <input class="radio" type="radio" name="choice" value="50">
+              <label>מתאים מאוד</label>
+            </form>
+            <div class="buttons">
+                <button id="next" class="next btn"><- שאלה הבאה</button>
+            </div>
+        </div>
+    </div>
+    <div id="screen-3" class="screen-3">
+        <h1 class="header">temp</h1>
+        <div class="ldBar label-center" data-value="35" data-preset="circle" style="width: 20vw; height: 40vh;"></div>
+    </div>
+</body>
+</html>
