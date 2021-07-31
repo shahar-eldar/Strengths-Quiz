@@ -75,9 +75,10 @@ body {
     display: flex;
     justify-content: space-between;
     width: 90vw;
-    position: relative;
+    position: absolute;
     left: 5vw;
-    top: 55vh;
+    bottom: 0;
+    margin-bottom: 2vh;
 }
 
 .btn {
@@ -174,7 +175,8 @@ body {
 
 .start {
     position: absolute;
-    top: 92vh;
+    bottom: 0;
+    margin-bottom: 2vh;
 }
 
 .logo {
