@@ -109,6 +109,10 @@ body {
     margin-top: 0;
 }
 
+.h {
+    margin-bottom: 3vh;
+}
+
 .ldBar path.mainline {
     stroke-width: 7;
     stroke: rgb(0, 0, 0);
@@ -200,5 +204,5 @@ body {
     font-size: 3.5rem;
     text-align: center;
     width: 90vw;
-    margin: 8vh auto;
+    margin: 0 auto;
 }
