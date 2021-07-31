@@ -110,7 +110,7 @@ body {
 }
 
 .h {
-    top: -4vh;
+    top: -3vh;
     margin-bottom: 3vh;
 }
 
@@ -205,5 +205,5 @@ body {
     font-size: 3.5rem;
     text-align: center;
     width: 90vw;
-    margin: -7vh auto;
+    margin: -6vh auto;
 }
