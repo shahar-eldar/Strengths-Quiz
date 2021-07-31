@@ -5,26 +5,35 @@
     <title>שאלון חוזקות בה"ד 1</title>
     <link rel="stylesheet" href="style.css">
     <script src="assets/jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/loading-bar.css"/>
-    <script type="text/javascript" src="assets/loading-bar.js"></script>
     <script src="code.js"></script>
 </head>
 <body>
-    <div id="screen-1" class="screen-1"></div>
+    <div id="screen-1" class="screen-1">
+        <img class="logo" id="logo" src="images/logo.png" alt="logo">
+        <div class="c">שחר אלדר ארז 73 ⓒ </div>
+        <h1 class="header" id="header">שאלון חוזקות</h1>
+        <div class="ins">בואו נאבחן את החוזקות שלכם<br>
+            התשובות לשאלות ינועו בין מתאים מאוד לבין מאוד לא מתאים<br>
+            הציונים על כל חוזקה ינועו בין 1 ל – 10 כאשר 10 הוא הציון הכי גבוה<br>
+            רק עשו טובה, ענו על השאלות בצורה הכי כנה שיש!<br>
+            סומכים עליכם ;-)
+        </div>
+        <button id="start" class="btn btn2 start"><- להתחלה</button>
+    </div>
     <div id="screen-2" class="screen-2">
         <div class="level"><span id="current-level" class="current">1</span><span>/48</span></div>
         <div class="question" id="question">אני סקרן תמיד לגבי העולם</div>
         <div class="answers">
             <form class="form">
-              <input class="radio" type="radio" name="choice" value="10">
+              <input class="radio" type="radio" name="choice" value="1">
               <label>מאוד לא מתאים</label><br>
-              <input class="radio" type="radio" name="choice" value="20">
+              <input class="radio" type="radio" name="choice" value="2">
               <label>לא מתאים</label><br>
-              <input class="radio" type="radio" name="choice" value="30">
+              <input class="radio" type="radio" name="choice" value="3">
               <label>ניטרלי</label><br>
-              <input class="radio" type="radio" name="choice" value="40">
+              <input class="radio" type="radio" name="choice" value="4">
               <label>מתאים</label><br>
-              <input class="radio" type="radio" name="choice" value="50">
+              <input class="radio" type="radio" name="choice" value="5">
               <label>מתאים מאוד</label>
             </form>
             <div class="buttons">
@@ -32,9 +41,7 @@
             </div>
         </div>
     </div>
-    <div id="screen-3" class="screen-3">
-        <h1 class="header">temp</h1>
-        <div class="ldBar label-center" data-value="35" data-preset="circle" style="width: 20vw; height: 40vh;"></div>
+    <div id="screen-3" class="screen-3"></div>
     </div>
 </body>
 </html>
